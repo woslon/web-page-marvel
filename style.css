@@ -1,0 +1,97 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  background: url(./imagens/marvel-background.gif);
+}
+button{
+  background-color: rgba(42, 41, 39, 0.947);
+  font-size: 10pt;
+  color: rgba(152, 150, 150, 0.979);
+  border: solid 1px rgb(105, 105, 105);
+  border-radius: 3px;
+  margin: 6%;
+}
+button:hover ,focus{
+ transform: translateX(0) scale(1.1);
+ color: rgb(255, 208, 0);
+ border-radius: 3px;
+ cursor: pointer;
+}
+
+.titulo{
+    position: relative;
+    text-align: center;
+    font-size: 12pt;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 3px;
+}
+@media only screen and (min-width:800px) {
+  .container-fig{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  padding: 8px;
+  }
+}
+figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    animation-duration: 1s;
+}
+
+img{
+    width:130px;
+    height:130px;
+    padding: 17%;
+}
+#venon:hover,
+#venon:focus {
+  transform: translateX(0) scale(1.7);
+  cursor: pointer;
+}
+#aranha:hover,
+#aranha:focus {
+  transform: translateX(0) scale(1.7);
+  cursor: pointer;
+}
+#dead:hover,
+#dead:focus {
+  transform: translateX(0) scale(1.7);
+  cursor: pointer;
+}
+#ferro:hover,
+#ferro:focus {
+  transform: translateX(0) scale(1.4);
+  cursor: pointer;
+}
+#capitao-america:hover,
+#capitao-america:focus {
+  transform: translateX(0) scale(1.4);
+  cursor: pointer;
+}
+#thor:hover,
+#thor:focus {
+  transform: translateX(0) scale(1.4);
+  cursor: pointer;
+}
+.titulo:hover{
+ color: rgb(188, 134, 17);
+ cursor: pointer;
+
+}
+footer{
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+  width: 100%;
+  margin-top: 17px;
+  background-color: rgba(158, 156, 156, 0.511);
+  color: rgb(222, 222, 222);
+}
+footer:hover{
+  color: rgb(255, 208, 0);
+  cursor: pointer;
+
+}
